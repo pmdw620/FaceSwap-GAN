@@ -4,6 +4,7 @@ from .instance_normalization import InstanceNormalization
 from .GroupNormalization import GroupNormalization
 from .pixel_shuffler import PixelShuffler
 from .custom_layers.scale_layer import Scale
+from keras import regularizers
 from .custom_inits.icnr_initializer import icnr_keras
 import tensorflow as tf
 import keras.backend as K
